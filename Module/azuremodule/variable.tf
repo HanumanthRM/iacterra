@@ -1,18 +1,18 @@
-variable "stg_name" {
+variable "department" {
   
-  default =  "modstg"
-}
-
-variable "res_name" {
-
-    default = -"modreg"
   
 }
 
+variable "storagelocation" {
 
-variable "acc_tier" {
+    
+  
+}
 
-    default = -"Standard"
+
+variable "stg_container" {
+
+    
   
 }
 

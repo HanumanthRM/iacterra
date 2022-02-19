@@ -5,14 +5,14 @@ variable "stg_name" {
 
 variable "res_name" {
 
-    default = -"modreg"
+    default = "modreg"
   
 }
 
 
 variable "acc_tier" {
 
-    default = -"Standard"
+    default = "Standard"
   
 }
 

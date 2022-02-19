@@ -1,8 +1,8 @@
 resource "azurerm_storage_account" "example" {
-  name                     = "var.stg_name"
-  resource_group_name      = "var.res_name"
-  location                 = "west-us"
-  account_tier             = "var.acc_tier"
+  name                     = "${var.department}-sg"
+  resource_group_name      = azurerm_resource_group.main.name
+  location                 = var.storagelocation
+  account_tier             = "standard"
   
   tags = {
     environment = "staging"

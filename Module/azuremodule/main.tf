@@ -11,3 +11,10 @@ terraform {
   }
 }
 
+resource "azurerm_resource_group" "main" {
+
+  name     = "${var.department}-rg"
+
+  location = "eastus"
+
+}

@@ -10,7 +10,7 @@ variable "storagelocation" {
 }
 
 
-variable "stg_container" {
+variable "containername" {
 
     
   

@@ -9,6 +9,3 @@ resource "azurerm_storage_account" "example" {
   }
 }
 
-module "consul" {
-  source = "https://github.com/ntmsiac7/terraformiac7.git"
-}
